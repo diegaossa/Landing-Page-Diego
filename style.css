@@ -6,41 +6,105 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
+ 
 body {
     background-color: #25212B;
+    width: 100%;
 }
 
 /* CABEÇA */
 
+
 .header-h {
     display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-    padding: 0px 0px 20px;
+    width: 100%;
+    padding: 30px;
+    background-color: #3e3a44;
     align-items: center;
-    border-bottom: 1px solid #352F3D;
-    
-    
+    justify-content: space-around;
+}
+
+.logo-top {
+    width: 200px;
+    align-items: center;
+    margin-right: 190px;
 }
 
 .navbar-menu {
+    
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .texto-menu {
-    
-    font-family: 'Khand', sans-serif;
-    color: #ffffff;
-    font-size: 24px
-
+    font-family: 'Khand';
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: 24px;
 }
 
 
-.logo-top {
-    width:60px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CORPO */
 .copor-precipal {
@@ -57,14 +121,14 @@ body {
 .boneco1 {
     height: 502px;
     width: 500px;
-    margin-right: 200px;
+    
     
 }
 
 .bloco-text-bnt {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
+    
     gap: 10px;
 }
 
