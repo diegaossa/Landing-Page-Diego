@@ -297,4 +297,12 @@ span {
     color: white; 
 }
 
+/* EFEITO CABEÇALHO */
 
+.texto-menu {
+    transition-duration: 0.4s;
+}
+
+.texto-menu:hover {
+    color: #564caf; 
+}
