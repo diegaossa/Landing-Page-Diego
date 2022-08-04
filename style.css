@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #25212B;
+}
+
+/* CABEÇA */
+
+.header-h {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 0px 0px 20px;
+    align-items: center;
+    border-bottom: 1px solid #352F3D;
+    
+    
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.texto-menu {
+    
+    font-family: 'Khand', sans-serif;
+    color: #ffffff;
+    font-size: 24px
+
+}
+
+
+.logo-top {
+    width:60px;
+}
+
+/* CORPO */
+.copor-precipal {
+    margin-top: 20px;
+    margin-top: 100px;
+}
+
+.sessao1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.boneco1 {
+    height: 502px;
+    width: 500px;
+    margin-right: 200px;
+    
+}
+
+.bloco-text-bnt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    gap: 10px;
+}
+
+.texto-titulo1 {
+    color: #ffffff;
+    font-family: 'Khand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 147px;
+}
+
+.texto-sub1 {
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #ffffff;
+}
+
+
+.texto-paragrafo1 {
+    font-family: 'Khand';
+    font-style: normal;
+    
+    font-size: 24px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+.botao {
+    width: 227px;
+    height: 70px;
+    border: none;
+    background: #BA68C8;
+    border-radius: 13px;
+    margin-top: 30px;
+    font-family: 'Khand';
+    font-style: normal;
+    
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.botao {
+    transition-duration: 0.4s;
+}
+
+.botao:hover {
+    background-color: #564caf; 
+    color: white; 
+}
+
+/* TEXTO */
+
+
+
+.texto-titulo-sessao2 {
+    text-align: center;
+    font-family: 'Khand';
+    color: #FFFFFF;
+    font-size: 35px;
+}
+
+.texto-paragrafo5 {
+    text-align: center;
+    font-family: 'Khand';
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+
+span {
+    color: #BA68C8;
+}
+
+
+
